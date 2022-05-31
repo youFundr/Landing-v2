@@ -107,6 +107,9 @@
     width: 100%;
     margin-left: 20px;
   }
+  .hero .container{
+    margin-left: 50px;
+  }
 
   .hero .f_flex {
     flex-direction: column;
