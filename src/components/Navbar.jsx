@@ -4,10 +4,10 @@ import logo from '../assets/youf.png'
 
 const Navbar = () => {
 
-    window.addEventListener("scroll", function(){
-        const header = document.querySelector(".header")
-        header.classList.toggle("active", window.scrollY > 100)
-    })
+    // window.addEventListener("scroll", function(){
+    //     const header = document.querySelector(".header")
+    //     header.classList.toggle("active", window.scrollY > 100)
+    // })
 
     const [Mobile, setMobile] = useState(false)
   return (
@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className='header'>
         <div className='container d_flex'>
             <div className='youfundrlogo'>
-              <h5>YouFundR</h5>
+              <h2>YouFundR</h2>
             </div>
             <div className='links'>
                 <ul className={Mobile? "nav-links-mobile": "link f_flex uppercase"} onClick={() => setMobile(false)}>

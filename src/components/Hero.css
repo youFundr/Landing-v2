@@ -1,5 +1,15 @@
 .hero {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
 }
 .hero h3 {
   font-weight: 100;
@@ -11,12 +21,12 @@
 }
 
 .hero h1 span {
-  color: #ff014f;
+  color: #023020;
 }
 .hero h2 {
   font-size: 50px;
   font-weight: bold;
-  color: #ff014f;
+  color: #023020;
 }
 .hero h2 span {
   color: black;
@@ -28,7 +38,10 @@
   margin-top: 30px;
 }
 .hero_btn {
-  margin-top: 20%;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hero_btn h4 {
   font-weight: 500;
@@ -36,6 +49,7 @@
   color: #43474b;
   font-size: 15px;
   margin: 30px 0 30px 0;
+  text-align: center;
 }
 .hero_btn button {
   margin-right: 30px;
@@ -51,10 +65,10 @@
 .hero .left {
   margin-right: 10%;
 }
-.hero .right {
+/* .hero .right {
   width: 40%;
   position: relative;
-}
+} */
 .hero .right_img {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
@@ -68,6 +82,22 @@
   top: 0;
   right: 10%;
   width: 510px;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    font-weight: bold;
+    color: #023020;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn2:hover{
+  color: white;
+  background: #023020;
 }
 @media (max-width: 768px) {
   .hero .right,
