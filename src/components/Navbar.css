@@ -1,0 +1,40 @@
+header{
+    height: 10vh;
+    line-height: 10vh;
+}
+
+header .container{
+    padding: 15px;
+}
+
+header ul li{
+    margin-left: 30px;
+}
+
+header ul li a{
+    transition: 0.5s;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+header ul li a:hover{
+     color: red;
+}
+
+.btn1{
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    font-weight: bold;
+    color: aqua;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+img{
+    width: 80px;
+    padding: 0;
+}
+
